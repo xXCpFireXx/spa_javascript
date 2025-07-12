@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Toastify.js CSS for notification styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>CRUD Operations</title>
+</head>
+
+<body>
+    <aside class="navbar" id="aside-navbar">
+        <h1 class="title">CRUD OPERATIONS</h1>
+        <div class="profile">
+            <div class="img-profile">
+                <img class="img-profile-user" src="./img/profile-img.jpg" alt="">
+            </div>
+            <h2 class="name-profile">Random guy</h2>
+            <h4 class="role-profile">Admin</h4>
+        </div>
+        <nav class="container-nav">
+            <ul>
+                <li><img src="./img/home.svg" alt=""><a href="/" data-link>Home</a></li>
+                <li><img src="./img/label.svg" alt="">
+                    <p>Course</p>
+                </li>
+                <li><img src="./img/graduation-cap.svg" alt=""><a href="/users" data-link>Users</a></li>
+                <li><img src="./img/money-dollar-box-line.svg" alt="">
+                    <p>Payment</p>
+                </li>
+                <li><img src="./img/document.svg" alt="">
+                    <p>Report</p>
+                </li>
+                <li><img src="./img/settings-04.svg" alt="">
+                    <p>Settings</p>
+                </li>
+            </ul>
+        </nav>
+        <div class="logout">
+            <p>Logout</p><img src="./img/logout.png" alt="">
+        </div>
+    </aside>
+    <main class="main-content" id="main-content"></main>
+    <script type="module" src="./js/main.js"></script>
+    <!-- Toastify.js library for toast notifications -->
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>

@@ -1,0 +1,324 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Camila acosta Velasquez",
+      "email": "suarezalejo26@gmail.com",
+      "phone": 55555555555555,
+      "enrollNumber": "88304248216727",
+      "dateOfAdmission": "10-Jul-2025"
+    },
+    {
+      "id": "3",
+      "name": "Camila acosta",
+      "email": "sadasd@gmdisdf.com",
+      "phone": 4444444444444444,
+      "enrollNumber": "62890770679765",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "4",
+      "name": "Camila acosta ace",
+      "email": "suarezalejo26@gmail.com",
+      "phone": 444444444444,
+      "enrollNumber": "21377830816175",
+      "dateOfAdmission": "02-Jul-2025"
+    },
+    {
+      "id": "5",
+      "name": "Pablo",
+      "email": "suarasdjo26@gmail.com",
+      "phone": 222222222222,
+      "enrollNumber": "13898206425124",
+      "dateOfAdmission": "07-Jul-2025"
+    },
+    {
+      "id": "6",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32323232,
+      "enrollNumber": "99405441096297",
+      "dateOfAdmission": "10-Jul-2025"
+    },
+    {
+      "id": "7",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "26728623359211",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "8",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "68702852013353",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "9",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "45204582622610",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "10",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "94769340539237",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "11",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "88755605365051",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "12",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "72438506654233",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "13",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "90032779294932",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "14",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "53222576897759",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "15",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "52167039382598",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "16",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "72122758232785",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "17",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "82886906009322",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "18",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "99801843784869",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "19",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "76495819044796",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "20",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "33699601936268",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "21",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "84512508640664",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "22",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "63419508052557",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "23",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "27883730148001",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "24",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "51573422471197",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "25",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "24810411803008",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "26",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "20984507046325",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "27",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "96528510885224",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "28",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "12652961477841",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "29",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "97499494941703",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "30",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "19977623202596",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "31",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "37590689671914",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "32",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "40809365750782",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "33",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "67047825569786",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "34",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "22202558004946",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "35",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "62518683384169",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "36",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "77006291541239",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "37",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "29882497411209",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "38",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "21344935711676",
+      "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "39",
+      "name": "Camila acosta",
+      "email": "suarezalejo2621@gmail.com",
+      "phone": 32222222222,
+      "enrollNumber": "61050983490239",
+      "dateOfAdmission": "03-Jul-2025"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "Cristian Penagos",
+      "role": "admin",
+      "user": "cpfire",
+      "password": "1122334455"
+    },
+    {
+      "id": "2",
+      "name": "Camila Acosta",
+      "role": "user",
+      "user": "militasee",
+      "password": "112233"
+    }
+  ]
+}
