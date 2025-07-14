@@ -1,37 +1,46 @@
+// =================== SERVICIOS PARA API (json-server) ===================
+// Estas funciones permiten la comunicación con una base de datos simulada mediante JSON Server
+
+// URL base para la colección de usuarios (estudiantes)
 const BASE_URL_STUDENTS = "http://localhost:3000/users";
+
+// URL base para los usuarios del sistema (usado en el login)
 const BASE_URL_SYSTEM = "http://localhost:3000/user";
 
-// GET: Obtener todos los usuarios
+
+// =================== FUNCIONES CRUD PARA USUARIOS ===================
+
+// GET: Obtener todos los usuarios registrados en la "base de datos"
 export const getUsers = async () => {
   try {
-    const res = await fetch(BASE_URL_STUDENTS);
-    return await res.json();
+    const res = await fetch(BASE_URL_STUDENTS); // Realiza la solicitud GET
+    return await res.json(); // Convierte la respuesta en formato JSON
   } catch (error) {
     console.error("Error getting users:", error);
-    return [];
+    return []; // Retorna arreglo vacío si ocurre error
   }
 };
 
-// POST: Agregar nuevo usuario
+// POST: Agregar nuevo usuario a la base de datos
 export const addUser = async (user) => {
   try {
     const res = await fetch(BASE_URL_STUDENTS, {
-      method: "POST",
+      method: "POST", // Método HTTP para crear recurso
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(user),
+      body: JSON.stringify(user), // Convierte el objeto usuario a JSON
     });
-    return await res.json();
+    return await res.json(); // Retorna la respuesta procesada
   } catch (error) {
     console.error("Error adding user:", error);
-    throw error;
+    throw error; // Lanza el error para manejarlo externamente
   }
 };
 
-// PUT: Actualizar usuario
+// PUT: Actualizar un usuario existente según su ID
 export const updateUser = async (id, updatedUser) => {
   try {
     const res = await fetch(`${BASE_URL_STUDENTS}/${id}`, {
-      method: "PUT",
+      method: "PUT", // Método para reemplazar por completo el recurso
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(updatedUser),
     });
@@ -42,7 +51,7 @@ export const updateUser = async (id, updatedUser) => {
   }
 };
 
-// DELETE: Eliminar usuario
+// DELETE: Eliminar un usuario específico por su ID
 export const deleteUser = async (id) => {
   try {
     const res = await fetch(`${BASE_URL_STUDENTS}/${id}`, {
@@ -56,15 +65,15 @@ export const deleteUser = async (id) => {
 };
 
 
-// API usuarios del sistema
+// =================== USUARIOS DEL SISTEMA (Login) ===================
 
-// GET: Obtener todos los usuarios del sistema
+// GET: Obtener todos los usuarios del sistema que tienen acceso (usado para validación de login)
 export const getUsersSystem = async () => {
   try {
-    const res = await fetch(BASE_URL_SYSTEM);
-    return await res.json();
+    const res = await fetch(BASE_URL_SYSTEM); // Consulta GET
+    return await res.json(); // Devuelve arreglo de usuarios con sus credenciales
   } catch (error) {
     console.error("Error getting system's users:", error);
-    return [];
+    return []; // En caso de error, retorna arreglo vacío
   }
 };

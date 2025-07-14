@@ -9,28 +9,12 @@
       "dateOfAdmission": "10-Jul-2025"
     },
     {
-      "id": "3",
-      "name": "Camila acosta",
-      "email": "sadasd@gmdisdf.com",
-      "phone": 4444444444444444,
-      "enrollNumber": "62890770679765",
-      "dateOfAdmission": "03-Jul-2025"
-    },
-    {
       "id": "4",
-      "name": "Camila acosta ace",
+      "name": "cristian",
       "email": "suarezalejo26@gmail.com",
       "phone": 444444444444,
       "enrollNumber": "21377830816175",
-      "dateOfAdmission": "02-Jul-2025"
-    },
-    {
-      "id": "5",
-      "name": "Pablo",
-      "email": "suarasdjo26@gmail.com",
-      "phone": 222222222222,
-      "enrollNumber": "13898206425124",
-      "dateOfAdmission": "07-Jul-2025"
+      "dateOfAdmission": "13-Jul-2025"
     },
     {
       "id": "6",
@@ -303,6 +287,14 @@
       "phone": 32222222222,
       "enrollNumber": "61050983490239",
       "dateOfAdmission": "03-Jul-2025"
+    },
+    {
+      "id": "40",
+      "name": "Cristian",
+      "email": "suarezalejo26@gmail.com",
+      "phone": 22222222222222,
+      "enrollNumber": "22208266883849",
+      "dateOfAdmission": "12-Jul-2025"
     }
   ],
   "user": [

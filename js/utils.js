@@ -1,17 +1,24 @@
-// Capitaliza la primera letra y pone el resto en minúscula
+// =================== FUNCIONES UTILITARIAS ===================
+// Este archivo contiene funciones reutilizables que apoyan tareas comunes
+
+
+// Capitaliza la primera letra de una palabra y convierte el resto en minúscula
+// Ejemplo: "mARIA" => "Maria"
 export const capitalizeFirstLetter = (str) => {
   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 };
 
-// Muestra notificación estilo Toastify
+
+// Muestra una notificación tipo "toast" usando la librería Toastify
+// Recibe el texto, el color de fondo y la duración (opcional) en milisegundos
 export const notification = (text, color, duration = 3000) => {
   Toastify({
     text,
     duration,
     close: true,
-    gravity: "top",
-    position: "center",
-    stopOnFocus: true,
+    gravity: "top", // Posición superior
+    position: "center", // Centrado horizontal
+    stopOnFocus: true, // Detiene temporizador si el usuario pasa el mouse
     style: {
       borderRadius: "8px",
       padding: "15px",
@@ -20,7 +27,8 @@ export const notification = (text, color, duration = 3000) => {
   }).showToast();
 };
 
-// Devuelve una fecha en formato: "06-Jul-2025"
+
+// Convierte una fecha desde formato ISO ("2025-07-06") a un formato amigable ("06-Jul-2025")
 export const formatDate = (inputDate) => {
   const months = [
     "Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -30,10 +38,12 @@ export const formatDate = (inputDate) => {
   const [year, month, day] = inputDate.split("-");
   const monthAbbr = months[parseInt(month, 10) - 1];
 
-  return `${day}-${monthAbbr}-${year}`;
+  return `${day}-${monthAbbr}-${year}`; // Ejemplo: 06-Jul-2025
 };
 
-// Convierte una fecha en formato: "06-Jul-2025" → "2025-07-06" para input type="date"
+
+// Convierte una fecha desde el formato personalizado ("06-Jul-2025")
+// al formato requerido por el input tipo date: "2025-07-06"
 export const formatDateForInput = (dateStr) => {
   const [day, monthAbbr, year] = dateStr.split("-");
 
@@ -43,12 +53,14 @@ export const formatDateForInput = (dateStr) => {
   };
 
   const month = months[monthAbbr];
-  const paddedDay = day.padStart(2, "0");
+  const paddedDay = day.padStart(2, "0"); // Asegura dos dígitos en el día
 
-  return `${year}-${month}-${paddedDay}`;
+  return `${year}-${month}-${paddedDay}`; // Ejemplo: 2025-07-06
 };
 
-// Genera número aleatorio de 14 dígitos
+
+// Genera un número aleatorio de 14 dígitos (como un ID o matrícula)
+// Se asegura de que comience con un número distinto de 0
 export const random14Digits = () => {
   return Math.floor(Math.random() * 9e13 + 1e13).toString();
 };

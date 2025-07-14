@@ -24,6 +24,18 @@ body {
   height: 100%;
 }
 
+/* Oculta todo el contenido mientras se verifica la sesión */
+body.loading #aside-navbar,
+body.loading #main-content {
+  display: none;
+}
+
+/* Opcional: muestra fondo blanco mientras carga */
+body.loading {
+  background-color: #fff;
+}
+
+
 .container {
   max-width: 100rem;
   width: 90%;

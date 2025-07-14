@@ -153,10 +153,11 @@ const putUser = async () => {
       e.preventDefault();
 
       const updatedUser = {
-        ...user,
+        id: user.id,
         name: document.getElementById("name").value.trim(),
         email: document.getElementById("email").value.trim(),
         phone: parseInt(document.getElementById("phone").value),
+        enrollNumber: user.enrollNumber,
         dateOfAdmission: formatDate(document.getElementById("date").value),
       };
 
@@ -327,5 +328,9 @@ window.addEventListener("popstate", () => {
 });
 
 window.addEventListener("DOMContentLoaded", () => {
-  navigate(location.pathname);
+  navigate(location.pathname).then(() => {
+    // Cuando termina la navegación inicial, mostrar la página
+    document.body.classList.remove("loading");
+  });
 });
+
